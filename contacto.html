@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Sport Gym</title>
+    <link rel="icon" href="Logosport.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-wrapper">
+                <img src="Logosport.png" alt="Sport Gym Logo" class="nav-logo">
+                <span class="logo-text">SPORT<span>GYM</span></span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="nosotras.html" class="nav-link">Nosotras</a></li>
+                    <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+                    <li><a href="planes.html" class="nav-link">Planes</a></li>
+                    <li><a href="horarios.html" class="nav-link">Horarios</a></li>
+                    <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="https://wa.me/523881018275?text=Hola%20Sport%20Gym!" target="_blank" rel="noopener noreferrer" class="btn btn-secondary header-btn">¡Inscríbete Ya!</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="contacto" class="contacto-section section-padding">
+        <div class="container">
+            <div class="section-header text-center scroll-reveal">
+                <span class="section-tag">Únete a Nosotras</span>
+                <h2 class="section-title">¿Lista para Empezar?</h2>
+                <div class="title-bar"></div>
+                <p class="section-subtitle">Escríbenos, visítanos o envíanos un mensaje directo. ¡Estamos listas para darte la bienvenida!</p>
+            </div>
+
+            <div class="grid grid-2 contacto-layout">
+                <div class="contacto-info-block scroll-reveal">
+                    <div class="info-cards-grid">
+                        <a href="https://wa.me/523881018275?text=Hola%20Sport%20Gym!" target="_blank" rel="noopener noreferrer" class="info-card-link card-glow">
+                            <div class="info-card-icon wa-icon">WhatsApp</div>
+                            <div class="info-card-text">
+                                <h5>WhatsApp</h5>
+                                <span class="info-val">388-101-8275</span>
+                            </div>
+                        </a>
+                        <a href="tel:3881018275" class="info-card-link card-glow">
+                            <div class="info-card-icon phone-icon">Tel</div>
+                            <div class="info-card-text">
+                                <h5>Teléfono directo</h5>
+                                <span class="info-val">388-101-8275</span>
+                            </div>
+                        </a>
+                        <div class="info-card card-glow full-width-card">
+                            <div class="info-card-icon location-icon">Ubicación</div>
+                            <div class="info-card-text">
+                                <h5>Dirección y Ubicación</h5>
+                                <span class="info-val">Lopez Cotilla 24, Hotel Playa del Río, Talpa de Allende</span>
+                            </div>
+                        </div>
+                        <a href="https://instagram.com/sportgymtalpa" target="_blank" rel="noopener noreferrer" class="info-card-link card-glow full-width-card ig-card">
+                            <div class="info-card-icon ig-icon">IG</div>
+                            <div class="info-card-text">
+                                <h5>Instagram</h5>
+                                <span class="info-val">@sportgymtalpa</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="maps-wrapper card-glow">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.0805177242203!2d-104.8239023!3d20.3795159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84242bb9ec8164b3%3A0xe54e604f3f350c37!2sL%C3%B3pez%20Cotilla%2024%2C%20Centro%2C%2048900%20Talpa%20de%20Allende%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps Sport Gym Talpa"></iframe>
+                    </div>
+                </div>
+
+                <div class="contacto-form-block card-glow scroll-reveal">
+                    <h3>Envíanos un Mensaje</h3>
+                    <p class="form-instructions">Completa el formulario y nos comunicaremos contigo de inmediato para agendar tu primera sesión de cortesía.</p>
+                    <form id="contact-form" class="modern-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Nombre Completo</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Correo Electrónico</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required placeholder=" ">
+                            <label for="phone">Teléfono / WhatsApp</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="" disabled selected hidden>Selecciona tu Plan de Interés</option>
+                                <option value="dia">Plan por Día ($50)</option>
+                                <option value="semanal">Plan Semanal ($150)</option>
+                                <option value="mensual">Plan Mensual ($400)</option>
+                                <option value="duda">Tengo una consulta general</option>
+                            </select>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Mensaje / ¿Qué metas deseas lograr?</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full btn-glow" id="submit-btn"><span class="btn-text">Enviar Mensaje</span><span class="loader-icon hidden"></span></button>
+                        <div id="form-success" class="alert-success hidden">¡Mensaje enviado con éxito! Nos comunicaremos contigo muy pronto.</div>
+                        <div id="form-error" class="alert-error hidden">Hubo un error al enviar el mensaje. Por favor intenta de nuevo.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="Logosport.png" alt="Sport Gym Logo" class="footer-logo-img">
+                    <h4>SPORT GYM</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
